@@ -5,6 +5,7 @@ import FormComponent from './components/03.FormComponent';
 import TwoInputForm from './components/04.TwoInputForm';
 import AddTwoNumbers from './components/05.AddTwoNumbers';
 import ShoppingList from './components/ShoppingList';
+import ChangeColor from './components/07.ChangeColor';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
   <TwoInputForm/>
   <AddTwoNumbers/>
   <ShoppingList/>
+  <ChangeColor/>
   </>
   
 
