@@ -4,6 +4,7 @@ import RandomNumber from './components/02.RandomNumber';
 import FormComponent from './components/03.FormComponent';
 import TwoInputForm from './components/04.TwoInputForm';
 import AddTwoNumbers from './components/05.AddTwoNumbers';
+import ShoppingList from './components/ShoppingList';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
   <FormComponent/>
   <TwoInputForm/>
   <AddTwoNumbers/>
+  <ShoppingList/>
   </>
   
 
