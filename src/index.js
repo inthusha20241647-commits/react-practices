@@ -8,6 +8,7 @@ import ShoppingList from "./components/ShoppingList";
 import ChangeColor from "./components/07.ChangeColor";
 import List from "./components/08.List";
 import Login from "./components/09.Login";
+import Todo from "./components/10.todo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,5 +22,6 @@ root.render(
     <ChangeColor />
     <List />
     <Login />
+    <Todo/>
   </>,
 );
